@@ -2,6 +2,7 @@ use bevy::prelude::*;
 
 use crate::core::game_plugin::GamePlugin;
 mod core;
+mod physics;
 
 fn main() {
 
