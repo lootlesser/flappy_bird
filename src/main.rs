@@ -5,9 +5,5 @@ mod core;
 mod physics;
 
 fn main() {
-
-    App::new()
-        .add_plugins(GamePlugin)
-        .run();
-
+    App::new().add_plugins(GamePlugin).run();
 }
