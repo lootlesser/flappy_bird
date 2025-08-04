@@ -1,6 +1,6 @@
 use bevy::prelude::*;
 
-use crate::{core::{camera_plugin::CameraPlugin, screen_plugin::ScreenPlugin}, physics::{gravity::GravityPlugin, velocity::VelocityPlugin}};
+use crate::{core::{camera::CameraPlugin, screen::ScreenPlugin}, physics::{gravity::GravityPlugin, velocity::VelocityPlugin}};
 pub struct GamePlugin;
 
 impl Plugin for GamePlugin {

@@ -1,6 +1,6 @@
 use bevy::prelude::*;
 
-use crate::core::game_plugin::GamePlugin;
+use crate::core::game::GamePlugin;
 mod core;
 mod physics;
 

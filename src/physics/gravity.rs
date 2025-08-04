@@ -12,6 +12,7 @@ impl Plugin for GravityPlugin {
     }
 
 }
+
 #[derive(Component)]
 pub struct Gravity {
     pub terminal_velocity: f32,

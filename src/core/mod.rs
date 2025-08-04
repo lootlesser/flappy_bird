@@ -1,3 +1,3 @@
-pub mod game_plugin;
-pub mod screen_plugin;
-pub mod camera_plugin;
+pub mod game;
+pub mod screen;
+pub mod camera;
